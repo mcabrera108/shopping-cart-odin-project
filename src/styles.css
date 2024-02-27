@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-btn-bg-color-hover: rgb(226, 226, 226);
+    --nav-default-font-family: "Patua One", "Press Start 2P", system-ui;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    display: flex;
+    font-family: var(--nav-default-font-family);
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.logo-title:visited {
+    color: black;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item-btn {
+    background-color: white;
+    padding: 7px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background-color 500ms;
+    background: none;
+    border: none;
+    font-family: var(--nav-default-font-family);
+}
+
+.shopping-container {}
+
+.nav-item-btn:visited {
+    color: black;
+}
+
+.nav-item-btn:hover {
+    background-color: var(--nav-btn-bg-color-hover);
+}
