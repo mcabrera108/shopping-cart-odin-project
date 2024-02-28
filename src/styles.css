@@ -27,6 +27,7 @@ nav {
     font-size: 2rem;
     margin-left: 1rem;
     text-decoration: none;
+    color: black;
 }
 
 .logo-title:visited {
@@ -76,13 +77,15 @@ nav {
     font-size: 1.2rem;
     font-family: var(--nav-default-font-btn);
     font-weight: 700;
+    color: black;
 }
 
 .shop-btn:hover {
     background-color: gold;
 }
 
-.shop-btn:visited {
+.shop-btn:visited,
+.nav-item-btn:visited {
     color: black;
 }
 
@@ -109,6 +112,7 @@ nav {
     background: none;
     border: none;
     font-family: var(--nav-default-font-family);
+    color: black;
 }
 
 .nav-item-btn:visited {
