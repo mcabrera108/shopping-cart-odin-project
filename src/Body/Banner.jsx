@@ -11,7 +11,9 @@ function Banner() {
                 <div className="banner-subtitle-container">
                     We BUY, SELL, & TRADE all video games!
                 </div>
-                <Link to="about" className="shop-btn">Shop</Link>
+                <div className="banner-btn-container">
+                    <Link to="about" className="shop-btn">Shop</Link>
+                </div>
             </div>
         </div>
     )

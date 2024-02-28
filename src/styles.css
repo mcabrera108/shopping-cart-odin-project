@@ -6,6 +6,7 @@
 
 :root {
     --nav-btn-bg-color-hover: rgb(226, 226, 226);
+    --nav-default-font-btn: "Cabin", "Press Start 2P", system-ui;
     --nav-default-font-family: "Patua One", "Press Start 2P", system-ui;
 }
 
@@ -63,7 +64,27 @@ nav {
     margin-top: 10px;
 }
 
-.shop-btn {}
+.banner-btn-container {
+    margin-top: 1.9rem;
+}
+
+.shop-btn {
+    padding: 10px 4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    background: white;
+    font-size: 1.2rem;
+    font-family: var(--nav-default-font-btn);
+    font-weight: 700;
+}
+
+.shop-btn:hover {
+    background-color: gold;
+}
+
+.shop-btn:visited {
+    color: black;
+}
 
 .nav-menu {
     list-style: none;
