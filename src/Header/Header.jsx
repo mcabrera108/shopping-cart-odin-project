@@ -14,7 +14,7 @@ function Header() {
             <li className="nav-menu">
                 <ul><Link to="/" className="nav-item-btn">Home</Link></ul>
                 <ul><Link to="about" className="nav-item-btn">About</Link></ul>
-                <ul><button className="nav-item-btn">Inventory</button></ul>
+                <ul><button className="nav-item-btn">Shop</button></ul>
             </li>
             <div className="shopping-container">
                 <i className="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
