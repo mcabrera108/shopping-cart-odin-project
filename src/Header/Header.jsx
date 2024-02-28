@@ -6,7 +6,7 @@ function Header() {
     return (
         <nav>
             <div className="logo-container">
-                <img src="./src/assets/logo.png" className="logo-img" />
+                <img src="https://github.com/mcabrera108/shopping-cart-odin-project/blob/main/src/assets/logo.png?raw=true" className="logo-img" />
                 <div>
                     <Link to="/" className="logo-title">Hey Bro!! Video Games</Link>
                 </div>
