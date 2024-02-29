@@ -8,11 +8,14 @@
     --nav-btn-bg-color-hover: rgb(226, 226, 226);
     --nav-default-font-btn: "Cabin", "Press Start 2P", system-ui;
     --nav-default-font-family: "Patua One", "Press Start 2P", system-ui;
+    --banner-default-font-color: rgb(228, 202, 53);
 }
 
 nav {
+    position: sticky;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 2rem;
 }
 
@@ -34,6 +37,7 @@ nav {
     color: black;
 }
 
+/*Will act as my height and width basis for react slideshow library*/
 .banner-container {
     min-height: 90vh;
     background: url("./assets/heybrovideogames_1.jpg");
@@ -47,21 +51,40 @@ nav {
 }
 
 .banner-sub-container {
+    position: absolute;
+    top: 50%;
+    left: 20%;
     width: 60%;
+    z-index: 12;
 
+}
+
+.each-slide-effect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
 }
 
 .banner-title-container,
 .banner-subtitle-container {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: var(--nav-default-font-family);
-    color: white;
+    color: var(--banner-default-font-color);
     animation: fadeInAnimation ease 2s;
     text-shadow: 2px 2px 4px black;
 }
 
+.banner-title-container,
+.banner-subtitle-container,
+.banner-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .banner-subtitle-container {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 10px;
 }
 
@@ -73,15 +96,16 @@ nav {
     padding: 10px 4rem;
     border-radius: 5px;
     text-decoration: none;
-    background: white;
+    background-color: white;
     font-size: 1.2rem;
     font-family: var(--nav-default-font-btn);
     font-weight: 700;
     color: black;
+    transition: background-color 500ms;
 }
 
 .shop-btn:hover {
-    background-color: gold;
+    background-color: var(--banner-default-font-color);
 }
 
 .shop-btn:visited,
@@ -121,6 +145,7 @@ nav {
 
 .nav-item-btn:hover {
     background-color: var(--nav-btn-bg-color-hover);
+    cursor: pointer;
 }
 
 @keyframes fadeInAnimation {

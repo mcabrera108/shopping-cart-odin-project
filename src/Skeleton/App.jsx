@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from '../Header/Header'
 import Banner from '../Body/Banner'
+import Location from '../Body/Location';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Location />
     </>
   )
 }
