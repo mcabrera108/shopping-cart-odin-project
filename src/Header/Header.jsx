@@ -11,11 +11,11 @@ function Header() {
                     <Link to="/" className="logo-title">Hey Bro!! Video Games</Link>
                 </div>
             </div>
-            <li className="nav-menu">
-                <ul><Link to="/" className="nav-item-btn">Home</Link></ul>
-                <ul><Link to="about" className="nav-item-btn">About</Link></ul>
-                <ul><button className="nav-item-btn">Shop</button></ul>
-            </li>
+            <ul className="nav-menu">
+                <li><Link to="/" className="nav-item-btn">Home</Link></li>
+                <li><Link to="about" className="nav-item-btn">About</Link></li>
+                <li><button className="nav-item-btn">Shop</button></li>
+            </ul>
             <div className="shopping-icon-container">
                 <i className="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
             </div>

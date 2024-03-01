@@ -28,15 +28,15 @@ function Banner() {
         <>
             <Fade arrows={false}>
                 <div className="each-slide-effect">
-                    <div style={slideStyle(imageList[0])}>
+                    <div style={slideStyle(imageList[0])} title="banner-img-1">
                     </div>
                 </div>
                 <div className="each-slide-effect">
-                    <div style={slideStyle(imageList[1])}>
+                    <div style={slideStyle(imageList[1])} title="banner-img-2">
                     </div>
                 </div>
                 <div className="each-slide-effect">
-                    <div style={slideStyle(imageList[2])}>
+                    <div style={slideStyle(imageList[2])} title="banner-img-3">
                     </div>
                 </div>
             </Fade>
