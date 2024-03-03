@@ -8,10 +8,14 @@
     --nav-btn-bg-color-hover: rgb(226, 226, 226);
     --nav-default-font-btn: "Cabin", "Press Start 2P", system-ui;
     --nav-default-font-family: "Patua One", "Press Start 2P", system-ui;
-    --banner-default-font-color: rgb(228, 202, 53);
+    --banner-default-font-color: #6c9fec;
+    --nav-default-bg-color: #367de7;
+    --nav-font-color: white;
+    --nav-font-color-visited: black;
 }
 
 nav {
+    background-color: var(--nav-default-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,11 +33,11 @@ nav {
     font-size: 2rem;
     margin-left: 1rem;
     text-decoration: none;
-    color: black;
+    color: var(--nav-font-color);
 }
 
 .logo-title:visited {
-    color: black;
+    color: var(--nav-font-color);
 }
 
 /*Will act as my height and width basis for react slideshow library*/
@@ -72,7 +76,7 @@ nav {
     font-family: var(--nav-default-font-family);
     color: var(--banner-default-font-color);
     animation: fadeInAnimation ease 2s;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px #0e2b57;
 }
 
 .banner-title-container,
@@ -107,9 +111,16 @@ nav {
     background-color: var(--banner-default-font-color);
 }
 
-.shop-btn:visited,
-.nav-item-btn:visited {
+.shop-btn:visited {
     color: black;
+}
+
+.fa-shopping-cart:hover {
+    cursor: pointer;
+}
+
+.nav-item-btn:visited {
+    color: var(--nav-font-color);
 }
 
 .nav-menu {
@@ -135,15 +146,12 @@ nav {
     background: none;
     border: none;
     font-family: var(--nav-default-font-family);
-    color: black;
-}
-
-.nav-item-btn:visited {
-    color: black;
+    color: var(--nav-font-color);
 }
 
 .nav-item-btn:hover {
-    background-color: var(--nav-btn-bg-color-hover);
+    background-color: var(--nav-font-color);
+    color: var(--nav-font-color-visited);
     cursor: pointer;
 }
 

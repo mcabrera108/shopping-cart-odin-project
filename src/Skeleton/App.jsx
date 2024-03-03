@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Header from '../Header/Header'
 import Banner from '../Body/Banner'
 import Location from '../Body/Location';
+import Footer from '../Footer/Footer';
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       <Header />
       <Banner />
       <Location />
+      <Footer />
     </>
   )
 }

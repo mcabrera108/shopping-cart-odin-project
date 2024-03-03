@@ -17,7 +17,7 @@ function Header() {
                 <li><button className="nav-item-btn">Shop</button></li>
             </ul>
             <div className="shopping-icon-container">
-                <i className="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                <i className="fa fa-shopping-cart fa-2x" style={{ color: "white" }} aria-hidden="true"></i>
             </div>
         </nav>
     )

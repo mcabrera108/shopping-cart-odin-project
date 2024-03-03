@@ -1,6 +1,6 @@
 .locationContainer {
     display: flex;
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 
 .addressContainer {
@@ -14,11 +14,16 @@
 .addressHeader {
     font-family: "Patua One", "Press Start 2P", system-ui;
     font-size: 2rem;
-
+    display: flex;
+    justify-content: center;
 }
 
 .addressNameContainer {
-    border-top: 2px solid black;
+    border-top: 1px solid black;
+}
+
+.addressBlock {
+    margin-top: 1.5rem;
 }
 
 .googleMapContainer {
