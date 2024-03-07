@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./Skeleton/App";
 import ErrorPage from "./Skeleton/ErrorPage";
-import About from "./Header/About";
+import About from "./About/About.jsx";
+import Shop from "./Shop/Shop";
 
 function Router() {
     const router = createBrowserRouter([
@@ -11,8 +12,12 @@ function Router() {
             errorElement: <ErrorPage />,
         },
         {
-            path: "about",
+            path: "/about",
             element: <About />
+        },
+        {
+            path: "/shop",
+            element: <Shop />
         }
     ])
 

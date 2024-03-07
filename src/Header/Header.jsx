@@ -13,8 +13,8 @@ function Header() {
             </div>
             <ul className="nav-menu">
                 <li><Link to="/" className="nav-item-btn">Home</Link></li>
-                <li><Link to="about" className="nav-item-btn">About</Link></li>
-                <li><button className="nav-item-btn">Shop</button></li>
+                <li><Link to="/about" className="nav-item-btn">About</Link></li>
+                <li><Link to="/shop" className="nav-item-btn">Shop</Link></li>
             </ul>
             <div className="shopping-icon-container">
                 <i className="fa fa-shopping-cart fa-2x" style={{ color: "white" }} aria-hidden="true"></i>
