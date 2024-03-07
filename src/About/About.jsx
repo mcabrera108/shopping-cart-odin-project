@@ -8,7 +8,7 @@ function About() {
         <>
             <Header />
             <div className={style.aboutBannerContainer}>
-                <img className={style.aboutBannerImg} src="src/assets/heybrovideogamesentrance.jpg" />
+                <img className={style.aboutBannerImg} src="https://raw.githubusercontent.com/mcabrera108/shopping-cart-odin-project/main/src/assets/heybrovideogamesentrance.jpg" />
             </div>
             <div className={style.aboutBannerHeaderContainer}>
                 <div className={style.aboutBannerTitleContainer}>About Us</div>
@@ -22,7 +22,7 @@ function About() {
                     </div>
                 </div>
                 <div className={style.aboutBannerPhotoContainer}>
-                    <img className={style.aboutBannerImage} src="src/assets/heybrovideogames_about.jpeg" alt="heybrovideogamesvintageimage" />
+                    <img className={style.aboutBannerImage} src="https://raw.githubusercontent.com/mcabrera108/shopping-cart-odin-project/main/src/assets/heybrovideogames_about.jpeg" alt="heybrovideogamesvintageimage" />
                 </div>
             </div>
             <Footer />
