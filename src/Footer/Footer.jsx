@@ -8,7 +8,6 @@ function Footer() {
     return (
         <>
             <div className={style.footerContainer}>
-                <span className={style.copyrightTitle}>© 2023 by Hey Bro!! Video Games</span>
                 <div className={style.connectContainer}>
                     <span className={style.connectHeader}>Connect With Us</span>
                     <div className={style.iconContainer}>
@@ -18,6 +17,7 @@ function Footer() {
 
                     </div>
                 </div>
+                <span className={style.copyrightTitle}>© 2023 by Hey Bro!! Video Games</span>
             </div>
         </>
     )
